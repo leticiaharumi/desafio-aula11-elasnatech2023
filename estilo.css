@@ -13,11 +13,10 @@
 }
 
 body{
-    all: unset;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 90vh;
     font-family: 'Nunito', sans-serif;
     background: var(--color-rosaclaro);
 }
@@ -35,7 +34,7 @@ body{
 }
 
 .content h1{
-    font-size: 1.5em;
+    font-size: 1.9em;
     color: var(--color-rosa);
 }
 
