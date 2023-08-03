@@ -18,7 +18,8 @@ body{
     align-items: center;
     min-height: 90vh;
     font-family: 'Nunito', sans-serif;
-    background: var(--color-rosaclaro);
+    background: url(https://wallpaperaccess.com/full/622893.jpg);
+    /*background: var(--color-rosaclaro);*/
 }
 
 .content{
@@ -27,10 +28,14 @@ body{
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    background-color: var(--color-rosa2);
+    /*background-color: var(--color-rosa2);*/
     padding: 2em;
     border-radius: 1.5em;
     filter: drop-shadow(3px 3px 4px #bdbdbd);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.2px);
+    -webkit-backdrop-filter: blur(5.2px);
+    border: 1px solid rgba(255, 255, 255, 0.19);
 }
 
 .content h1{
@@ -47,7 +52,7 @@ body{
     width: 55%;
     font-size: .8em;
     text-align: center;
-    
+    color: var(--color-rosa);
 }
 
 .content button{
