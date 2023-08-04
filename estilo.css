@@ -8,8 +8,8 @@
 :root{
     --color-rosaclaro: #f1dadd;
     --color-rosa: #b38080;
-    --color-rosa2: rgba(249, 238, 243, 0.8);
-    --color-rosa3: #af9b9b;
+    --color-rosa2: rgba(249, 238, 243, 0.918);
+    --color-rosa3: #7c6b6b;
 }
 
 body{
@@ -18,8 +18,7 @@ body{
     align-items: center;
     min-height: 90vh;
     font-family: 'Nunito', sans-serif;
-    background: url(https://wallpaperaccess.com/full/622893.jpg);
-    /*background: var(--color-rosaclaro);*/
+    background: url(https://wallpaperaccess.com/full/1221299.jpg);
 }
 
 .content{
@@ -28,18 +27,18 @@ body{
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    /*background-color: var(--color-rosa2);*/
     padding: 2em;
+    width: 305px;
     border-radius: 1.5em;
     filter: drop-shadow(3px 3px 4px #bdbdbd);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6.2px);
-    -webkit-backdrop-filter: blur(5.2px);
+    backdrop-filter: blur(9.2px);
+    -webkit-backdrop-filter: blur(3.2px);
     border: 1px solid rgba(255, 255, 255, 0.19);
 }
 
 .content h1{
-    font-size: 1.9em;
+    font-size: 1.7em;
     color: var(--color-rosa);
 }
 
@@ -57,8 +56,8 @@ body{
 
 .content button{
     padding: .8em;
-    width: 60%;
-    font-size: 1em;
+    width: 100%;
+    font-size: .8em;
     background-color: var(--color-rosa);
     border: none;
     border-radius: .8em;
@@ -72,9 +71,19 @@ body{
     background-color: var(--color-rosa3);
 }
 
+.resultContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .8em;
+    background-color: rgba(255, 255, 255, 0.438);;
+    padding: .8em;
+    width: 100%;
+    text-align: center;
+}
+
 .result{
-    color: var(--color-rosa3);background-color: rgba(255, 255, 255, 0.438);
-    border-radius: .5em;
+    color: var(--color-rosa3);
     font-size: .8em;
 }
 
@@ -95,7 +104,7 @@ footer{
 }
 
 footer h4{
-    color: var(--color-rosa3);
+    color: var(--color-rosa);
     font-size: 13px; 
     font-weight: 200;
     font-weight: bold;

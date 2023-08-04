@@ -11,4 +11,3 @@ function verifyNumber(){
         resultado.innerHTML =('☒ O número não atende aos critérios.')
     }
 }
-
